@@ -9,12 +9,12 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: #efeee7;
+  color: rgb(0, 0, 0);
+  background: #ecf5ff;
 }
 
 header {
-  background: #333;
+  background: #13121f;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 28px;
-  color: #eee;
+  color: rgb(0, 217, 255);
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 a {
-  color: #d21034;
+  color: rgb(0, 217, 255);
 }
 
 /* Selecting elements by class */
@@ -53,12 +53,13 @@ a {
 
 #bio-name {
   position: absolute;
-  top: 150px;
-  left: 30px;
+  top: -35px;
+  left: 220px;
+  color: rgb(0, 217, 255);
 }
 
 #main-bio {
-  width: 70%;
+  width: 60%;
 }
 
 #contact-info {
@@ -67,6 +68,6 @@ a {
 
 #bio-image {
   width: 200px;
-  height: 200px;
+  height: 320px;
   margin-right: 20px;
 }
